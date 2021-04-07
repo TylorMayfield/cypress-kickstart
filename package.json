@@ -1,0 +1,30 @@
+{
+  "name": "cypress-kickstart",
+  "version": "1.0.0",
+  "description": "Getting started guide for Cypress",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylorMayfield/cypress-kickstart.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Testing",
+    "QA",
+    "Automation"
+  ],
+  "author": "Tylor Mayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylorMayfield/cypress-kickstart/issues"
+  },
+  "homepage": "https://github.com/TylorMayfield/cypress-kickstart#readme",
+  "dependencies": {
+    "cypress": "^7.0.0",
+    "cypress-tags": "npm:undefined@*",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.2"
+  }
+}

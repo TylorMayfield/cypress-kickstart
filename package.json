@@ -23,8 +23,9 @@
   "homepage": "https://github.com/TylorMayfield/cypress-kickstart#readme",
   "dependencies": {
     "cypress": "^7.0.0",
-    "cypress-tags": "npm:undefined@*",
+    "cypress-tags": "0.0.21",
     "eslint-plugin-chai-friendly": "^0.6.0",
-    "eslint-plugin-cypress": "^2.11.2"
+    "eslint-plugin-cypress": "^2.11.2",
+    "typescript": "^4.2.4"
   }
 }

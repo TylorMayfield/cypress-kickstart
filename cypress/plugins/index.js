@@ -19,4 +19,17 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+    on('task', {
+    setTempVariable: ({ name, value }) => {
+      tempVariables[name] = value;
+      return null;
+    },
+    getTempVariable: ({ name }) => {
+      return tempVariables[name] || null;
+    },
+    clearTempVariables: () => {
+      tempVariables = {};
+      return null;
+    }
+  });
 }
